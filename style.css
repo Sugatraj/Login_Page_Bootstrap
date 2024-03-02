@@ -1,0 +1,52 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    
+    
+    
+    height: 100%;
+    overflow: hidden;
+
+    
+
+    
+}
+body{
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+        background-image: url(images/abstract.jpg) ;
+        background-position: center;
+        background-size:cover;
+        background-repeat:no-repeat;
+    
+}
+
+
+
+.login-form{
+    background-color: white;
+    width: 30%;
+    height: auto;
+    margin: 7% auto;
+    padding: 25px 10px;
+    border-radius: 15px;
+   
+}
+
+@media screen and (max-width:600px) {
+    .login-form{
+        height: 90%;
+        margin: 35% auto;
+    }
+    
+}
+
+.poppins-regular {
+    
+    font-weight: 400;
+    font-style: normal;
+  }
+  
